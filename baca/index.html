@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../icon-192.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Baca Online · Kelak, Aku Akan Mekar</title>
+<style>
+:root{--paper:#FBF6E8;--ink:#2B2230;--muted:#6A5C68;--line:#E2D3C0;--accent:#6E4266;--bg:#38233F}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(ellipse at 50% 40%,#4a3052,#2a1a30 70%);color:#F4EAD8;font-family:Lora,Georgia,serif;display:flex;flex-direction:column;overflow:hidden}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;font-size:14px}
+header a{color:#F4EAD8;text-decoration:none;opacity:.85}
+header a:hover{opacity:1;text-decoration:underline}
+header b{font-weight:600;letter-spacing:.02em}
+main{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:0 12px;position:relative}
+#book{height:calc(100vh - 124px);width:min(100%,calc((100vh - 124px)*1.41));box-shadow:0 20px 60px rgba(0,0,0,.5)}
+@media(max-width:700px){#book{width:min(100%,calc((100vh - 150px)*.705))}}
+.pg{background:var(--paper);overflow:hidden}
+.pg img{width:100%;height:100%;display:block;object-fit:contain;user-select:none;-webkit-user-drag:none}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid rgba(244,234,216,.35);background:rgba(0,0,0,.25);color:#F4EAD8;font-size:22px;cursor:pointer;z-index:5}
+.nav:hover{background:rgba(0,0,0,.45)}
+#prev{left:10px}#next{right:10px}
+footer{display:flex;justify-content:center;align-items:center;gap:10px;padding:10px 12px 14px;font-size:14px;flex-wrap:wrap}
+footer button,footer input{font:inherit;color:#F4EAD8;background:rgba(0,0,0,.25);border:1px solid rgba(244,234,216,.35);border-radius:6px;padding:6px 12px}
+footer button{cursor:pointer}footer button:hover{background:rgba(0,0,0,.45)}
+footer input{width:64px;text-align:center}
+#cnt{min-width:90px;text-align:center}
+@media(max-width:640px){.nav{display:none}header span{display:none}}
+</style></head><body>
+<header><b>Kelak, Aku Akan Mekar</b><span>Sebuah Memoar</span><nav><a href="../index.html">&larr; Beranda</a> &nbsp;·&nbsp; <a href="../unduh/kelak-aku-akan-mekar.pdf" download>Unduh PDF</a></nav></header>
+<main>
+<button class="nav" id="prev" aria-label="Halaman sebelumnya">&#8249;</button>
+<div id="book">
+<div class="pg"><img src="halaman/001.jpg" alt="Halaman 1"  draggable="false"></div>
+<div class="pg"><img src="halaman/002.jpg" alt="Halaman 2"  draggable="false"></div>
+<div class="pg"><img src="halaman/003.jpg" alt="Halaman 3"  draggable="false"></div>
+<div class="pg"><img src="halaman/004.jpg" alt="Halaman 4"  draggable="false"></div>
+<div class="pg"><img src="halaman/005.jpg" alt="Halaman 5" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/006.jpg" alt="Halaman 6" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/007.jpg" alt="Halaman 7" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/008.jpg" alt="Halaman 8" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/009.jpg" alt="Halaman 9" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/010.jpg" alt="Halaman 10" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/011.jpg" alt="Halaman 11" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/012.jpg" alt="Halaman 12" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/013.jpg" alt="Halaman 13" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/014.jpg" alt="Halaman 14" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/015.jpg" alt="Halaman 15" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/016.jpg" alt="Halaman 16" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/017.jpg" alt="Halaman 17" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/018.jpg" alt="Halaman 18" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/019.jpg" alt="Halaman 19" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/020.jpg" alt="Halaman 20" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/021.jpg" alt="Halaman 21" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/022.jpg" alt="Halaman 22" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/023.jpg" alt="Halaman 23" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/024.jpg" alt="Halaman 24" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/025.jpg" alt="Halaman 25" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/026.jpg" alt="Halaman 26" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/027.jpg" alt="Halaman 27" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/028.jpg" alt="Halaman 28" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/029.jpg" alt="Halaman 29" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/030.jpg" alt="Halaman 30" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/031.jpg" alt="Halaman 31" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/032.jpg" alt="Halaman 32" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/033.jpg" alt="Halaman 33" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/034.jpg" alt="Halaman 34" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/035.jpg" alt="Halaman 35" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/036.jpg" alt="Halaman 36" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/037.jpg" alt="Halaman 37" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/038.jpg" alt="Halaman 38" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/039.jpg" alt="Halaman 39" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/040.jpg" alt="Halaman 40" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/041.jpg" alt="Halaman 41" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/042.jpg" alt="Halaman 42" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/043.jpg" alt="Halaman 43" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/044.jpg" alt="Halaman 44" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/045.jpg" alt="Halaman 45" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/046.jpg" alt="Halaman 46" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/047.jpg" alt="Halaman 47" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/048.jpg" alt="Halaman 48" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/049.jpg" alt="Halaman 49" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/050.jpg" alt="Halaman 50" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/051.jpg" alt="Halaman 51" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/052.jpg" alt="Halaman 52" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/053.jpg" alt="Halaman 53" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/054.jpg" alt="Halaman 54" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/055.jpg" alt="Halaman 55" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/056.jpg" alt="Halaman 56" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/057.jpg" alt="Halaman 57" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/058.jpg" alt="Halaman 58" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/059.jpg" alt="Halaman 59" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/060.jpg" alt="Halaman 60" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/061.jpg" alt="Halaman 61" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/062.jpg" alt="Halaman 62" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/063.jpg" alt="Halaman 63" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/064.jpg" alt="Halaman 64" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/065.jpg" alt="Halaman 65" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/066.jpg" alt="Halaman 66" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/067.jpg" alt="Halaman 67" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/068.jpg" alt="Halaman 68" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/069.jpg" alt="Halaman 69" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/070.jpg" alt="Halaman 70" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/071.jpg" alt="Halaman 71" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/072.jpg" alt="Halaman 72" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/073.jpg" alt="Halaman 73" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/074.jpg" alt="Halaman 74" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/075.jpg" alt="Halaman 75" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/076.jpg" alt="Halaman 76" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/077.jpg" alt="Halaman 77" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/078.jpg" alt="Halaman 78" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/079.jpg" alt="Halaman 79" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/080.jpg" alt="Halaman 80" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/081.jpg" alt="Halaman 81" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/082.jpg" alt="Halaman 82" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/083.jpg" alt="Halaman 83" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/084.jpg" alt="Halaman 84" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/085.jpg" alt="Halaman 85" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/086.jpg" alt="Halaman 86" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/087.jpg" alt="Halaman 87" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/088.jpg" alt="Halaman 88" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/089.jpg" alt="Halaman 89" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/090.jpg" alt="Halaman 90" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/091.jpg" alt="Halaman 91" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/092.jpg" alt="Halaman 92" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/093.jpg" alt="Halaman 93" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/094.jpg" alt="Halaman 94" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/095.jpg" alt="Halaman 95" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/096.jpg" alt="Halaman 96" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/097.jpg" alt="Halaman 97" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/098.jpg" alt="Halaman 98" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/099.jpg" alt="Halaman 99" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/100.jpg" alt="Halaman 100" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/101.jpg" alt="Halaman 101" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/102.jpg" alt="Halaman 102" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/103.jpg" alt="Halaman 103" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/104.jpg" alt="Halaman 104" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/105.jpg" alt="Halaman 105" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/106.jpg" alt="Halaman 106" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/107.jpg" alt="Halaman 107" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/108.jpg" alt="Halaman 108" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/109.jpg" alt="Halaman 109" loading="lazy" draggable="false"></div>
+<div class="pg"><img src="halaman/110.jpg" alt="Halaman 110" loading="lazy" draggable="false"></div>
+</div>
+<button class="nav" id="next" aria-label="Halaman berikutnya">&#8250;</button>
+</main>
+<footer>
+<button id="first">&laquo; Awal</button>
+<button id="p2">&lsaquo;</button>
+<span id="cnt">1 / 110</span>
+<button id="n2">&rsaquo;</button>
+<label>Ke hal. <input id="go" type="number" min="1" max="110" inputmode="numeric"></label>
+<button id="full">Layar penuh</button>
+</footer>
+<script src="page-flip.js"></script>
+<script>
+const N=110;
+const el=document.getElementById('book');
+const pf=new St.PageFlip(el,{width:420,height:596,size:'stretch',minWidth:280,maxWidth:560,minHeight:400,maxHeight:800,showCover:true,maxShadowOpacity:.5,mobileScrollSupport:false,usePortrait:true,flippingTime:700});
+pf.loadFromHTML(document.querySelectorAll('.pg'));
+const cnt=document.getElementById('cnt');
+function upd(){const i=pf.getCurrentPageIndex()+1;cnt.textContent=i+' / '+N}
+pf.on('flip',upd);
+const $=id=>document.getElementById(id);
+$('prev').onclick=$('p2').onclick=()=>pf.flipPrev();
+$('next').onclick=$('n2').onclick=()=>pf.flipNext();
+$('first').onclick=()=>pf.flip(0);
+$('go').addEventListener('keydown',e=>{if(e.key==='Enter'){const v=Math.min(N,Math.max(1,+e.target.value||1));pf.flip(v-1);e.target.blur()}});
+$('full').onclick=()=>{document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.()};
+addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='ArrowRight')pf.flipNext();if(e.key==='ArrowLeft')pf.flipPrev()});
+</script>
+</body></html>
