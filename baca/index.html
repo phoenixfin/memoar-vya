@@ -11,11 +11,11 @@
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
 body{background:radial-gradient(ellipse at 50% 40%,#4a3052,#2a1a30 70%);color:#F4EAD8;font-family:Lora,Georgia,serif;display:flex;flex-direction:column;overflow:hidden}
-header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;font-size:14px}
+header{position:relative;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;font-size:14px}
 header a{color:#F4EAD8;text-decoration:none;opacity:.85}
 header a:hover{opacity:1;text-decoration:underline}
 header b{font-weight:600;letter-spacing:.02em}
-main{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:0 12px;position:relative}
+main{flex:1;min-height:0;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:0 12px;position:relative}
 #book{height:calc(100vh - 124px);width:min(100%,calc((100vh - 124px)*1.41));box-shadow:0 20px 60px rgba(0,0,0,.5)}
 @media(max-width:700px){#book{width:min(100%,calc((100vh - 150px)*.705))}}
 .pg{background:var(--paper);overflow:hidden}
@@ -23,7 +23,7 @@ main{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;
 .nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid rgba(244,234,216,.35);background:rgba(0,0,0,.25);color:#F4EAD8;font-size:22px;cursor:pointer;z-index:5}
 .nav:hover{background:rgba(0,0,0,.45)}
 #prev{left:10px}#next{right:10px}
-footer{display:flex;justify-content:center;align-items:center;gap:10px;padding:10px 12px 14px;font-size:14px;flex-wrap:wrap}
+footer{position:relative;z-index:20;display:flex;justify-content:center;align-items:center;gap:10px;padding:10px 12px 14px;font-size:14px;flex-wrap:wrap}
 footer button,footer input{font:inherit;color:#F4EAD8;background:rgba(0,0,0,.25);border:1px solid rgba(244,234,216,.35);border-radius:6px;padding:6px 12px}
 footer button{cursor:pointer}footer button:hover{background:rgba(0,0,0,.45)}
 footer input{width:64px;text-align:center}
